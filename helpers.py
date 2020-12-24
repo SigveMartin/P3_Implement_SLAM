@@ -14,6 +14,7 @@ def display_world(world_size, position, landmarks=None):
     
     # using seaborn, set background grid to gray
     sns.set_style("dark")
+    #plt.style.use('dark_background')
 
     # Plot grid of values
     world_grid = np.zeros((world_size+1, world_size+1))
